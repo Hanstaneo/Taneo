@@ -1,2 +1,0 @@
-# Taneo
-WebDev

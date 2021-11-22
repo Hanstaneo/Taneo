@@ -1,0 +1,68 @@
+<DOCTYPE! html>
+<html>
+    <head>
+        <title>Register</title>
+        <style>
+        body {
+            background-color:cadetblue;
+            color:whitesmoke;
+        }
+        </style>
+    </head>
+    <body>
+        <center>
+    <form>
+        <h1>Register</h1>
+        <label for="firstname"><b>First Name:</b></label>
+        <input type="text" placeholder="First Name" name="firstname" id="firstname" required>
+        <label for="middlename"><b>Middle Name:</b></label>
+        <input type="text" placeholder="Middle Name" name="middlename" id="middlename" required>
+        <br><br>
+        <label for="lastname"><b>Last Name:</b></label>
+        <input type="text" placeholder="Last Name" name="lastname" id="lastname" required><br><br>
+        <button>
+        <b>Gender :</b> 
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="male">
+        <label for="female">Female</label></button><br><br>
+         
+        <label for="email"><b>Email Address:</b></label>
+        <input type="email" placeholder="Email Address" id="email" name="email" required><br><br>
+        
+        <label for="home"><b>Home Address:</b></label>
+        <textarea id="home" name="home" rows="4"></textarea><br><br>
+
+        <button>
+        <b>Hobbies:</b><br>
+        <input type="checkbox" id="hobby1" name="hobby1" value="computergames">
+        <label for="hobby1">Computer Games</label><br>
+        <input type="checkbox" id="hobby2" name="hobby2" value="instrument">
+        <label for="hobby2">Playing Music Instruments</label><br>
+        <input type="checkbox" id="hobby3" name="hobby3" value="Cooking">
+        <label for="hobby3">Cooking</label><br>
+        <input type="checkbox" id="hobby4" name="hobby4" value="drawing">
+        <label for="hobby4">Drawing</label></button><br><br>
+
+        <b>Favorite Color:</b>
+        <select>
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yello">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="indigo">Indigo</option>
+            <option value="violet">Violet</option>
+            <option value="others">Others</option>
+        </select><br><br>
+
+        <label for="self"><b>About Yourself:</b></label>
+        <textarea id="self" name="self" rows="5"></textarea><br><br>
+
+        <input type="submit" value="Submit" style="background-color: green; width:80px; height:40px; color: white" /><br><br>
+
+        <input type="reset" value="reset" style="background-color: red; color: white" />
+    </form>
+        </center>
+    </body>
+</html>
